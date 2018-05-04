@@ -61,7 +61,7 @@ public class Navigation
 		
 		GraphicsLCD display = BrickFinder.getDefault().getGraphicsLCD();
 		
-		/*Auswahl  der Start und ZielKnoten*/
+		/*Auswahl der Start-und Zielknoten*/
 		boolean canStart = false;
 		while(!canStart && start > -1 && dest > -1)
 		{
